@@ -6,7 +6,7 @@ import {
     NativeEventEmitter,
     NativeModules,
 } from 'react-native';
-import { RecyclerView, DataSource } from './list';
+import { RecyclerView, DataSource } from './RecyclerView/list';
 
 var _gCounter = 1;
 function newItem() {
